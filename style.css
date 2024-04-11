@@ -1,0 +1,75 @@
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 35px;
+}
+
+#part1{
+  background-color: rgb(238, 203, 209);  
+}
+
+#part2{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+#all{
+    border: solid black;
+border-radius: 15px;
+height: 682px; 
+width: 1091px;
+margin: 25px;
+
+}
+
+#books{
+    height: 296px;
+    width: 410px;
+    border-radius: 20px;
+}
+
+.partOne{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(238, 203, 209); 
+    margin-top: 45px;
+   
+}
+
+
+#study{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#learn{
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+#search{
+    border-radius: 25px;
+    padding: 5px 95px 5px 25px;
+    height: 35px;
+    background-color:rgb(238, 203, 209); 
+}
+
+#signIn{
+    border: none;
+    background-color: rgb(238, 203, 209); ;
+}
+
+#signUp{
+    background-color: black;
+    color: white;
+    border-radius: 35px;
+    padding: 5px;
+    width: 100px;
+    height: 35px;
+    
+}
+
+#baims{
+
+}
