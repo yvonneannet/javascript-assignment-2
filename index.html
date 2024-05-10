@@ -4,70 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div id="background">
-    <div id="all">
+    
+    <div id="container">
 
    
 <div>
     
 </div>
         
-    <div id="part1">
+    <div id="study-text-image">
 
    
     <div id="navbar">
-        <p id="baims">baims</p>
-        <p>Courses</p>
-        <button id="search">Search for anything here...</button>
-        <p>Apply as an Instructor</p>
-        <p>|</p>
-        <button id="signIn">Sign in</button>
+        <a id="baims">baims</a>
+        <div><select name="choices" id="some_choice">
+            <option value="Courses">Courses</option>
+            <option value="Tasks">Trends</option>
+            <option value="Todos">Apply</option>
+            <option value="Latest">Latest</option>
+            </select></div>
+
+        <input id="search-for-anything" placeholder=" Search for anything here..."> </input>
+        <!-- <i class="fa fa-search" id="search-for-anything-icon"></i>  -->
+        <a>  Apply as an Instructor</a>
+        <pre>|</pre>
+        <a id="signIn">Sign in</a>
         <button id="signUp">Sign up</button>
     </div>
 
-    <div class="partOne">
+    <div class="study-anytime-and-book">
 
-    <div id="studyanytime">
-        <div id="study">
+    <div>
+        <div id="study-anytime">
         <p>Study anytime,</br> wherever you are</p></div>
         <p>Study any subject you want from hundreds of courses with Baims</p>
 
-        <button id="learn">what do you want to learn?</button>
+        <input id="what-to-learn" placeholder="what do you want to learn?"></input>
+        <!-- <i class="fa fa-search" id="search-learn-icon"></i>  -->
+
+
+
+
     </div>
 
 
 <div id="imgOne">
-    <img id="books" src="./images/images.jpeg">
+    <img id="book" src="./images/images.jpeg" alt="studying-image">
 </div>
 
 </div>
 </div>
 
 
-<div id="part2">
+<div id="statistics">
 
-    <div id="133+">
+    <div>
         <h1>133+</h1>
         <p>Courses & Subjects</p>
     </div>
 
-    <div id="304+">
+    <div>
         <h1>304+</h1>
         <p>Instructors</p>
 
     </div>
 
-    <div id="56k+">
+    <div>
         <h1>56k+</h1>
         <p>students</p>
 
     </div>
 
-    <div id="11m+">
+    <div>
         <h1>11m+</h1>
         <p>Lectures Views</p>
 
@@ -78,7 +91,7 @@
 
 </div>
 
-</div>
+
     
 
     

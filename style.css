@@ -4,13 +4,13 @@
     padding: 35px;
 }
 
-#part1{
+#study-text-image{
   background-color: rgb(238, 203, 209);  
 border-radius: 25px;
 padding: 10px 0px 95px 0px;
 }
 
-#part2{
+#statistics{
     background-color: white;
     display: flex;
     justify-content: space-evenly;
@@ -18,21 +18,43 @@ padding: 10px 0px 95px 0px;
   
 }
 
-#all{
+#container{
     border: solid black;
-border-radius: 40px;
+border-radius: 30px;
 background-color: pink;
 margin: 50px;
 
 }
 
-#books{
+#baims{
+    font-size: 1.5em;
+}
+
+#search-for-anything-icon{
+    color: black;
+    position: absolute;
+    top: 18%; 
+    left: 15.9%; 
+    text-align: center;
+    cursor: pointer;  
+}
+
+#book{
     height: 400px;
     width: 500px;
     border-radius: 20px;
 }
 
-.partOne{
+#search-learn-icon{
+    color: black;
+    position: absolute;
+    top:82%; 
+    left: 8.9%; 
+    cursor: pointer;  
+
+}
+
+.study-anytime-and-book{
     display: flex;
     justify-content: space-evenly;
     background-color: rgb(238, 203, 209); 
@@ -41,19 +63,19 @@ margin: 50px;
 }
 
 
-#study{
-    font-size: 4.5em;
+#study-anytime{
+    font-size: 3.5em;
     font-weight: bold;
 }
 
-#learn{
+#what-to-learn{
     padding: 10px 25px;
     border-radius: 30px;
 }
-#search{
+#search-for-anything{
     border-radius: 25px;
     padding: 5px 95px 5px 25px;
-    height: 35px;
+    margin-bottom: 3%;
     background-color:rgb(238, 203, 209); 
 }
 
@@ -64,96 +86,105 @@ margin: 50px;
 
 #signUp{
     background-color: black;
+    border: none;
     color: white;
     border-radius: 35px;
     padding: 5px;
-    width: 100px;
-    height:35px;
+    inline-size: 100px;
+    block-size:35px;
+    margin-top: -1%;
     
 }
 
-#background{
-    border: solid 1px;
-    border-radius: 20px;
-    background-color: purple;
-
+#some_choice{
+    border: none;
+    background-color: #EECBD1;
+    margin-top: 10%;
 }
 
 
-@media all and (min-width:280px) and (max-width:1024px){
+
+
+@media screen and (min-width:240px) and (max-width:480px){
 
     #navbar{
         display: wrap;
-        font: size 0.3em;
-        flex-direction: column; 
-       
-        
-       
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 25px;
     }
     
-    #part1{
+    #study-text-image{
       background-color: rgb(238, 203, 209);  
-      font-size: 0.4em;
-    
+    border-radius: 25px;
+    padding: 10px 0px 5px 0px;
     }
     
-    #part2{
+    #statistics{
         background-color: white;
         display: wrap;
-        font-size: 0.3em;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: space-evenly;
+    
+        
       
     }
+
     
-    #all{
-        border: solid black;
-    border-radius: 30px;
-    background-color: pink;
-     margin: 30px; 
-    
+
+    #search-learn-icon{
+        color: black;
+        position: absolute;
+        top:87%; 
+        left: 9.2%; 
+        cursor: pointer;  
     
     }
     
-    #books{
-        height: 150px;
-        width: 150px;
+    #container{
+        border: solid black;
+    
+    background-color: pink;
+    margin: 20px; 
+    
+    }
+    
+    #book{
+        height: 200px;
+        width: 200px;
         border-radius: 20px;
     }
     
-    .partOne{
+    .study-anytime-and-book{
         display: wrap;
         flex-direction: column;
         justify-content: space-evenly;
         background-color: rgb(238, 203, 209); 
-        margin-top: 5px;
+        
        
     }
     
     
-    #study{
-        font-size: 1.3em;
+    #study-anytime{
+        font-size: 2.5em;
         font-weight: bold;
     }
     
-    #learn{
-        padding: 5px 15px;
+    #what-to-learn{
+        padding: 10px 25px;
         border-radius: 30px;
-        font-size: 0.5em;
-
+        width: 160px;
     }
-    #search{
-        
-     padding: 5px 0px 25px 0px;
-        height: 5px;
-        width: 100px;
-        font-size: 0.4em;
-      
+    #search-for-anything{
+        border-radius: 25px;
+        padding: 5px 95px 5px 25px;
+        width: 40px;
+        background-color:rgb(238, 203, 209); 
     }
     
     #signIn{
         border: none;
         background-color: rgb(238, 203, 209); ;
-        font-size: 0.4em;
     }
     
     #signUp{
@@ -161,17 +192,268 @@ margin: 50px;
         color: white;
         border-radius: 35px;
         padding: 5px;
-        width: 80px;
+        width: 100px;
         height:35px;
-        font-size: 0.4em;
+        
     }
     
-    #background{
-        border: solid 1px;
-        border-radius: 20px;
-        background-color: purple;}
-        margin: 10px;
-    
+   
     
     
 }
+
+
+
+
+@media screen and (min-width:481px) and (max-width:750px){
+
+    #navbar{
+        display: wrap;
+        /* flex-direction: column; */
+        justify-content: space-evenly;
+        padding: 15px;
+    }
+    
+    #study-text-image{
+      background-color: rgb(238, 203, 209);  
+    border-radius: 25px;
+    padding: 9px 0px 5px 0px;
+    
+    }
+    
+    #statistics{
+        background-color: white;
+        display: wrap;
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+    
+        gap: 15px;
+      
+    }
+    
+    #container{
+        border: solid black;
+    
+    background-color: pink;
+    margin: 20px;
+    
+    }
+    
+    #book{
+        height: 200px;
+        width: 300px;
+        border-radius: 20px;
+    }
+    
+    .study-anytime-and-book{
+        display: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: rgb(238, 203, 209); 
+        
+       
+    }
+    
+    
+    #study-anytime{
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+    
+    #what-to-learn{
+        padding: 10px 25px;
+        border-radius: 30px;
+    }
+    #search-for-anything{
+        border-radius: 25px;
+        padding: 5px 95px 5px 25px;
+        width: 123px;
+        background-color:rgb(238, 203, 209); 
+    }
+    
+    #signIn{
+        border: none;
+        background-color: rgb(238, 203, 209); ;
+    }
+    
+    #signUp{
+        background-color: black;
+        color: white;
+        border-radius: 35px;
+        padding: 5px;
+        width: 100px;
+        height:35px;
+        
+    }
+    
+   
+    
+    
+}
+
+@media screen and (min-width:751px) and (max-width:1024px){
+
+    #navbar{
+        display: wrap;
+        gap: 19px;
+        padding: 15px;
+    }
+    
+    #study-text-image{
+      background-color: rgb(238, 203, 209);  
+    border-radius: 25px;
+    padding: 10px 0px 5px 0px;
+    }
+    
+    #statistics{
+        background-color: white;
+        display: wrap;
+        /* flex-direction: column; */
+        justify-content: space-evenly;
+    
+        
+      
+    }
+    
+    #container{
+        border: solid black;
+    
+    background-color: pink;
+    margin: 20px;
+    
+    }
+    
+    #book{
+        height: 200px;
+        width: 300px;
+        border-radius: 20px;
+    }
+    
+    .study-anytime-and-book{
+        display: wrap;
+        /* flex-direction: column; */
+        justify-content: space-evenly;
+        background-color: rgb(238, 203, 209); 
+        
+       
+    }
+    
+    
+    #study-anytime{
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+    
+    #what-to-learn{
+        padding: 10px 25px;
+        border-radius: 30px;
+    }
+    #search-for-anything{
+        border-radius: 25px;
+        padding: 5px 95px 5px 25px;
+        width: 123px;
+        background-color:rgb(238, 203, 209); }
+    
+    #signIn{
+        border: none;
+        background-color: rgb(238, 203, 209); 
+    }
+    
+    #signUp{
+        background-color: black;
+        color: white;
+        border-radius: 35px;
+        padding: 5px;
+        width: 100px;
+        height:35px;
+        
+    }
+    
+}
+    @media screen and (min-width:1081px) and (max-width:1024px){
+
+        #navbar{
+            display: wrap;
+            flex-direction: column;
+            gap: 16px;
+            padding: 15px;
+        }
+        
+        #study-text-image{
+          background-color: rgb(238, 203, 209);  
+        border-radius: 25px;
+        padding: 10px 0px 5px 0px;
+        }
+        
+        #statistics{
+            background-color: white;
+            display: wrap;
+            /* flex-direction: column; */
+            justify-content: space-evenly;
+        
+            
+          
+        }
+        
+        #container{
+            border: solid black;
+        
+        background-color: pink;
+        margin: 20px;
+        
+        }
+        
+        #book{
+            height: 200px;
+            width: 300px;
+            border-radius: 20px;
+        }
+        
+        .study-anytime-and-book{
+            display: wrap;
+            /* flex-direction: column; */
+            justify-content: space-evenly;
+            background-color: rgb(238, 203, 209); 
+            
+           
+        }
+        
+        
+        #study-anytime{
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+        
+        #what-to-learn{
+            padding: 10px 25px;
+            border-radius: 30px;
+            width: 10px;
+        }
+        #search-for-anything{
+            border-radius: 25px;
+            padding: 5px 95px 5px 25px;
+            width: 123px;
+            background-color:rgb(238, 203, 209); 
+        }
+        
+        #signIn{
+            border: none;
+            background-color: rgb(238, 203, 209); ;
+        }
+        
+        #signUp{
+            background-color: black;
+            color: white;
+            border-radius: 35px;
+            padding: 5px;
+            width: 100px;
+            height:35px;
+            
+        }
+        
+       
+    
+    
+}
+
+
